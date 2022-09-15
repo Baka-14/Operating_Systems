@@ -1,0 +1,64 @@
+this refers to current class object (its a keyword) 
+
+Abstraction-: unhiding the unessential details i.e limit the access 
+i.e acces specifiers 
+1.private-:only within the class is the scope
+2.public-:anywhere everywhere 
+3.protected 
+the first three are keywords,the last one is default if there is no keyword 
+4.default 
+allows to access memebers across multiple classes within the same package 
+
+the ac bc shows this in an example 
+
+implictly understood that you are writing this line-: 
+import java.lang.*;
+# is the connector/script to bring the files from the shell;
+likewise in java also 
+
+packages have classes and classes have methods and methods have variables 
+2 cases for proctected-: 
+
+a.exactly same like default
+b.acces across multiple classes across different packages 
+if and only if the classes are in is-a relationship
+
+is-a is generalization (inheritance)
+has-a is an aggregation () 
+
+how to create package-: it is created not in current folder but in some part of os 
+
+javac -d is creating a directory 
+. is the current location 
+package should be first line of statement always else youll get an error
+
+
+we are conecting objects  of diffrenent classes through constructers(explict inheritance) in subclass it will happen for super and subclass 
+default can access varibales of only that particular package  
+
+whenever class is public makesure your filename and public class name is same 
+if the class is public you dont require is a relationship 
+
+Encapsulation and Abstraction goes hane in hand 
+
+any variable declared in smoe method scope they become local 
+only instance variables get default values 
+
+parse the integers its a method and we cant typecast since they aint in the same bucket 
+
+static methods are called using class name 
+instance methods are called using object name 
+
+every datatype has its wrapper classes for its proctection 
+any name is an identifier
+basic rules of identifier-: 
+length recommended to be less than 15 
+predefined class names are allowed to be identifier 
+
+There are 3 different data types-: 
+1.Numeric interger type  byte short int long floating point float double
+2.Char 
+3.Boolean 
+ 
+
+ 

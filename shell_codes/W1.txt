@@ -1,0 +1,38 @@
+c is procedural oriented language (since bottom to top approach)
+small procedures to big approaches/interconnected/dependent on each other 
+
+we have programs because of its computational power compared to the human mind 
+
+OOPS is top to down approach (saves time & independency)
+java or c++ object oriented language
+python is multiple program paradim 
+
+any entity in the real world is called an object 
+objects are independent of each other 
+any object has "ATTRIBUTES" and "BEHAVIOUR" i.e variables and methods
+
+OOPS-: 
+A. Encapsulation-:working on data and code/instructions together 
+B. Absrtaction-:hiding the essential details and unhiding unessential detials (public,private,protected,deafault) 
+C. Polymorphism-:one name acts as multiple forms based on user interaction(ex-:beverage machine)
+D. Inheritance-:something that we derive from an existing one 
+
+why java is so popular ? 
+1. JAVA is simple (pointers /tough concepts are no there in java)
+2. JAVA is distributed 
+3. JAVA is robust (we have memory management by JVM & Exception handeling)
+    JVM is present in every laptop 
+4.JAVA is system platform independent/neutral architecture (creates byte code)
+5.JAVA is portable 
+6.JAVA is an interpreted language (compiler saves time but identification of error at which line is not done)
+    Takes time but identification of error is easy 
+    JVM -: compiler + interpreter 
+    high performance 
+7.JAVA is multi threaded/process
+    thread is a procedure with performs certain tasks 
+==> ENCAPSULATION-: 
+
+
+
+
+

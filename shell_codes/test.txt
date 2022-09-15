@@ -1,0 +1,63 @@
+Encapsulation is combining code and data together
+class is the one that doesnt exist physically,it is a template to create objects (class has no memory)
+instances created from class i.e objects,objects exist physically 
+everything is written inside classes 
+Naming conventions-: 
+java is third party language,hence follow standard naming conditions
+for class name-: start with a capital letter/multiple words every first letter is capital 
+for variables-: always in small letters (capital letter varibales are constant variables,example pi..etc Keyword is called final)
+for methods-: start with small letter if its single word/if multiple words than starting from second word first letter is capital(camel case)
+nature of variable (local and global but in java we dont have global instead we have instance and static)
+instance variable-:variable declared inside class (they dont get the memory than and there itself,they get the memory when objects are created from that particular class)
+you can have multiple instances for a class
+static varibale(class level)-:this gets memory when we load the entire class into the memory  
+                              you will use it by "classname.variablename" 
+link-:https://www.tutorialspoint.com/What-is-the-difference-between-class-variables-and-instance-variables-in-Java#:~:text=Instance%20variables%20are%20created%20when,variable%20name%20inside%20the%20class.
+
+returntype methodname(){
+adjfjadsfdjf;
+dkjbDKJFkdsjvb;
+dkvbkjdvkbdjsv;
+}
+
+method prototype vs method signature 
+call methods using dot operator on the object
+methods-: 
+    1)instance methods (there in class)
+    2)static methods -: classname.methodname();can access only local and static variables cant access instance variables 
+
+javac filename (on terminal) 
+then byte code is created,this byte code is portable (created using class name)
+
+Main method is called outside your code by jvm 
+Absrtaction is achieved via access specifiers 
+
+Input is supplied by -: 
+1)CLI 
+2)static 
+3)dynamic 
+
+String is a class in java  antha crazy 
+JVM only recognises only .class files 
+
+Its only one main method per class 
+ 
+=>Object Creation process (Instantiation)-: 
+classname refname=new classname(); (new is the Keyword) 
+Step1-:each obj is created in heap memory 
+if values are not specified for the objects then default values are set 
+(NULL is default value for class type variables)  
+Step2-:Replaced default values with actual values  
+Step3-:Constructor will be called 
+Step4-:Returns memory into reference 
+
+=>Constructor-: 
+its know as special method and lablled using class name 
+with no return types 
+purpose-: object state initialization 
+"+" is the concatination operator when either of the operand is string  
+Note-: there are local variables 
+default values are only for instance variables 
+java compiler writes the Constructor with no argument if the programmer doesnt make one 
+super method call alway calls the super class constructor  
+every class is by default Inheritanced from an ultimate super class called object class 
